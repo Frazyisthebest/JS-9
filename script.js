@@ -20,7 +20,7 @@ for (let i = 0; i < squareNumber; i++) {
 }
 
 function setColor(element) {
-    const color = '';
+    let color = '';
     function randomCol (){
         let num = Math.floor(Math.random() * (5 + 1 - 1) + 1)
         return num;
@@ -48,6 +48,4 @@ function removeColor(element) {
     element.style.background = '#1d1d1d';
     element.style.boxShadow = '0 0 2px #000';
 }
-
-
 
